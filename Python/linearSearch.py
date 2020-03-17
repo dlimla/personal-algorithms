@@ -2,7 +2,7 @@ def linear_search(sequence, target):
 
     for item in sequence:
         if item == target:
-            return index
+            return item
     return None
 
 
